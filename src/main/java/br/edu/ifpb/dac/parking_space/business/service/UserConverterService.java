@@ -6,7 +6,9 @@ import java.util.List;
 import br.edu.ifpb.dac.parking_space.model.entity.User;
 import br.edu.ifpb.dac.parking_space.model.entity.Role;
 import br.edu.ifpb.dac.parking_space.presentation.dto.UserDTO;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserConverterService {
 
         public User dtoToUser(UserDTO dto) {

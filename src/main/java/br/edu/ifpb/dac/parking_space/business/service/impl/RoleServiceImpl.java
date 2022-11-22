@@ -4,9 +4,10 @@ import br.edu.ifpb.dac.parking_space.business.service.RoleService;
 import br.edu.ifpb.dac.parking_space.model.entity.Role;
 import br.edu.ifpb.dac.parking_space.model.repository.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
-
+@Service
 public class RoleServiceImpl implements RoleService {
 
     @Autowired

@@ -5,7 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 import br.edu.ifpb.dac.parking_space.model.entity.Car;
 import br.edu.ifpb.dac.parking_space.presentation.dto.CarDTO;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CarConverterService {
 
     public Car dtoToPlace(CarDTO dto) {

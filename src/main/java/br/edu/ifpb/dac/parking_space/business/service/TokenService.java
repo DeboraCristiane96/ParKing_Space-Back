@@ -4,6 +4,9 @@ import javax.servlet.http.HttpServletRequest;
 import br.edu.ifpb.dac.parking_space.model.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
+import org.springframework.stereotype.Service;
+
+@Service
 // métodos que são necessários para manipular o tokem
 public interface TokenService {
 

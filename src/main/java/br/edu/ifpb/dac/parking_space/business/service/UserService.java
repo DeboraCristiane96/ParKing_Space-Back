@@ -16,6 +16,7 @@ import br.edu.ifpb.dac.parking_space.presentation.exception.ObjectAlreadyExistsE
 import br.edu.ifpb.dac.parking_space.presentation.exception.ObjectNotFoundException;
 
 @Service
+
 public interface UserService extends UserDetailsService {
 
 
